@@ -56,3 +56,5 @@ let rolesObject = {
 
 rolesObject.init();
 // /https://i.pravatar.cc/150?img=1
+
+// this is about call bind
