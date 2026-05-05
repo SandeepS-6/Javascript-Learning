@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Role Cards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create Profile</h1>
+
+      <!-- FORM -->
+      <form class="form">
+        <input type="text" id="role" placeholder="Role (Frontend / Backend / Designer)" />
+        <input type="text" id="name" placeholder="Name" />
+        <textarea placeholder="bio" id="bio"></textarea>
+        <input type="text" id="photo" placeholder="Photo URL" />
+        <button type="submit">Add Profile</button>
+      </form>
+
+      <!-- CARDS -->
+      <div class="cards" id="cards"></div>
+      <script src="useCase.js"></script>
+    </div>
+  </body>
+</html>
